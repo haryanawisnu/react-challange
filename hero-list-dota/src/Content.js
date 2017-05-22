@@ -29,8 +29,8 @@ class Content extends React.Component {
           <TableBody>
             {this.props.herolist.map((hero) =>{
               return(
-                <TableRow key={hero.id}>
-                  <TableRowColumn>{hero.id}</TableRowColumn>
+                <TableRow key={hero.ID}>
+                  <TableRowColumn>{hero.ID}</TableRowColumn>
                   <TableRowColumn>{hero.Name}</TableRowColumn>
                   <TableRowColumn>{hero.Range}</TableRowColumn>
                 </TableRow>
